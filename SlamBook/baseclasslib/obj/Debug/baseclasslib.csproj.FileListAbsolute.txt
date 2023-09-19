@@ -1,0 +1,18 @@
+D:\kamal\SlamBook\baseclasslib\bin\Debug\baseclasslib.dll
+D:\kamal\SlamBook\baseclasslib\bin\Debug\baseclasslib.pdb
+D:\kamal\SlamBook\baseclasslib\bin\Debug\BuinessLayer.dll
+D:\kamal\SlamBook\baseclasslib\bin\Debug\DataBaseLayer.dll
+D:\kamal\SlamBook\baseclasslib\bin\Debug\BuinessLayer.pdb
+D:\kamal\SlamBook\baseclasslib\bin\Debug\DataBaseLayer.pdb
+D:\kamal\SlamBook\baseclasslib\obj\Debug\ResolveAssemblyReference.cache
+D:\kamal\SlamBook\baseclasslib\obj\Debug\baseclasslib.dll
+D:\kamal\SlamBook\baseclasslib\obj\Debug\baseclasslib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\baseclasslib.dll
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\baseclasslib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\BuinessLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\DataBaseLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\BuinessLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\bin\Debug\DataBaseLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\obj\Debug\ResolveAssemblyReference.cache
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\obj\Debug\baseclasslib.dll
+E:\Dot Net Project\SlamBook\SlamBook\baseclasslib\obj\Debug\baseclasslib.pdb

@@ -1,0 +1,147 @@
+﻿body.Master
+{
+	background-color:#FFFFFF;
+}
+table.MasterTableMain
+{
+	border:0px;
+	padding:0px;
+	top:0px;
+	left:0px;
+	margin:0px;
+	width:100%;	
+}
+table.MasterTableFoot
+{
+	background-color:#666633;	
+	border:0px;
+	padding:0px;
+	bottom:0px;
+	top:0px;
+	left:0px;
+	margin:0px;
+	width:100%;
+	color:White;
+}
+table.ContentTableMain
+{
+	border:0px;
+	padding:0px;
+	top:0px;
+	left:0px;
+	margin:0px;
+	width:100%;		
+}
+table.LogInTable
+{
+	width:100%;
+	border:solid 1px Gray;	
+}
+table.LogInInTable
+{
+	border:0px;
+	width:100%;
+}
+.textbox
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:medium;
+font-style:normal;
+height:25px;
+width:80%;
+}
+.labelstyle
+{
+	 Font-Size:Medium;
+	 color:Gray ;
+	 font-family:Verdana;	 
+}
+.textboxsignup
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:medium;
+font-style:normal;
+height:20px;
+width:80%;
+
+}
+font.headingtext
+{
+	color:Purple ;
+	font-size:medium;
+	font-family:Arial;
+	font-weight:lighter;
+}
+div.common
+{
+	top:0px;
+	left:0px;
+	border-width:0px;
+	float:left;
+	width:100%;
+	padding:0px;
+	position:relative;	
+}
+div.LogInDivL
+{
+	top:0px;
+	left:0px;
+	float:left;
+	width:90%;
+	border-width:0px;
+	padding:0px;
+	position:relative ;
+}
+div.LogInDivR
+{
+	top:50px;
+	left:0px;
+	width:90%;
+	border-width:0px;
+	float:left;
+	padding:0px;
+	position:relative ;
+}
+font.normalFont
+{
+	font-family:Verdana;
+	font-size:medium;
+	color:Black;
+	font-weight:bold;	
+}
+p.NormalText
+{
+	color:#663333;
+	font-size:small;
+	font-family:Arial;
+}
+font.linkbtn
+{
+	color:#CC3300;
+	font-family:Verdana;
+	font-size:small;
+}
+.linkstyle
+{
+	font-size:small;
+	text-decoration:none;
+	color:White;	
+}
+.linklogtxt
+{
+	font-size:small;
+	text-decoration:none;
+	color:#CC3300;
+}
+font.logoFont
+{
+	font-size:10px;
+	color:#6666CC;
+	font-family:Verdana;			
+}
+font.LogInFont
+{
+	font-family:Verdana;
+	font-size:medium;
+	color:#6633FF;	
+}

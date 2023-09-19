@@ -1,0 +1,14 @@
+D:\kamal\SlamBook\BuinessLayer\bin\Debug\BuinessLayer.dll
+D:\kamal\SlamBook\BuinessLayer\bin\Debug\BuinessLayer.pdb
+D:\kamal\SlamBook\BuinessLayer\bin\Debug\DataBaseLayer.dll
+D:\kamal\SlamBook\BuinessLayer\bin\Debug\DataBaseLayer.pdb
+D:\kamal\SlamBook\BuinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\kamal\SlamBook\BuinessLayer\obj\Debug\BuinessLayer.dll
+D:\kamal\SlamBook\BuinessLayer\obj\Debug\BuinessLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\bin\Debug\BuinessLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\bin\Debug\BuinessLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\bin\Debug\DataBaseLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\bin\Debug\DataBaseLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\obj\Debug\BuinessLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\BuinessLayer\obj\Debug\BuinessLayer.pdb

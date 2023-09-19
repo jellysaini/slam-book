@@ -1,0 +1,448 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B5E2248-D0B3-4EC9-A227-7B90127665AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SlamBook</RootNamespace>
+    <AssemblyName>SlamBook</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="App_Themes\LogIn\Images\logo.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
+    <Compile Include="LogIn\Pages\chatdetails.aspx.cs">
+      <DependentUpon>chatdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\chatdetails.aspx.designer.cs">
+      <DependentUpon>chatdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\confirmlogin.aspx.cs">
+      <DependentUpon>confirmlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\confirmlogin.aspx.designer.cs">
+      <DependentUpon>confirmlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\confirmMail.aspx.cs">
+      <DependentUpon>confirmMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\confirmMail.aspx.designer.cs">
+      <DependentUpon>confirmMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\ecarddetail.aspx.cs">
+      <DependentUpon>ecarddetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\ecarddetail.aspx.designer.cs">
+      <DependentUpon>ecarddetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\ForgetUser.aspx.cs">
+      <DependentUpon>ForgetUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\ForgetUser.aspx.designer.cs">
+      <DependentUpon>ForgetUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\MyLogInMaster.Master.cs">
+      <DependentUpon>MyLogInMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\MyLogInMaster.Master.designer.cs">
+      <DependentUpon>MyLogInMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\remainderdetail.aspx.cs">
+      <DependentUpon>remainderdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\remainderdetail.aspx.designer.cs">
+      <DependentUpon>remainderdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\smsdetail.aspx.cs">
+      <DependentUpon>smsdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\smsdetail.aspx.designer.cs">
+      <DependentUpon>smsdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\support.aspx.cs">
+      <DependentUpon>support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\support.aspx.designer.cs">
+      <DependentUpon>support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\Terms.aspx.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn\Pages\chitchatdetail.aspx.cs">
+      <DependentUpon>chitchatdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\Pages\chitchatdetail.aspx.designer.cs">
+      <DependentUpon>chitchatdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LogIn\LogIn Controls\signupcontrol.ascx.cs">
+      <DependentUpon>signupcontrol.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn\LogIn Controls\signupcontrol.ascx.designer.cs">
+      <DependentUpon>signupcontrol.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addSlamBKAnswer.aspx.cs">
+      <DependentUpon>addSlamBKAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addSlamBKAnswer.aspx.designer.cs">
+      <DependentUpon>addSlamBKAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addfriend.aspx.cs">
+      <DependentUpon>addfriend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addfriend.aspx.designer.cs">
+      <DependentUpon>addfriend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addSlamBKRequest.aspx.cs">
+      <DependentUpon>addSlamBKRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\addSlamBKRequest.aspx.designer.cs">
+      <DependentUpon>addSlamBKRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\editFriends.aspx.cs">
+      <DependentUpon>editFriends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\editFriends.aspx.designer.cs">
+      <DependentUpon>editFriends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\editScrap.aspx.cs">
+      <DependentUpon>editScrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\editScrap.aspx.designer.cs">
+      <DependentUpon>editScrap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\friendList.aspx.cs">
+      <DependentUpon>friendList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\friendList.aspx.designer.cs">
+      <DependentUpon>friendList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\inviteFriend.aspx.cs">
+      <DependentUpon>inviteFriend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\inviteFriend.aspx.designer.cs">
+      <DependentUpon>inviteFriend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\sendtoMany.aspx.cs">
+      <DependentUpon>sendtoMany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\sendtoMany.aspx.designer.cs">
+      <DependentUpon>sendtoMany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showAllScrap.aspx.cs">
+      <DependentUpon>showAllScrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showAllScrap.aspx.designer.cs">
+      <DependentUpon>showAllScrap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showRecentAnsEntery.aspx.cs">
+      <DependentUpon>showRecentAnsEntery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showRecentAnsEntery.aspx.designer.cs">
+      <DependentUpon>showRecentAnsEntery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showUsersSlamBK.aspx.cs">
+      <DependentUpon>showUsersSlamBK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\showUsersSlamBK.aspx.designer.cs">
+      <DependentUpon>showUsersSlamBK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\usersSlamBook.aspx.cs">
+      <DependentUpon>usersSlamBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\usersSlamBook.aspx.designer.cs">
+      <DependentUpon>usersSlamBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\RegisterUser.Master.cs">
+      <DependentUpon>RegisterUser.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\RegisterUser.Master.designer.cs">
+      <DependentUpon>RegisterUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\userHome.aspx.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\userHome.aspx.designer.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\userProfile.aspx.cs">
+      <DependentUpon>userProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterUser\Pages\userProfile.aspx.designer.cs">
+      <DependentUpon>userProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\friendsLinkWindow.ascx.cs">
+      <DependentUpon>friendsLinkWindow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\friendsLinkWindow.ascx.designer.cs">
+      <DependentUpon>friendsLinkWindow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\linkBarControl.ascx.cs">
+      <DependentUpon>linkBarControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\linkBarControl.ascx.designer.cs">
+      <DependentUpon>linkBarControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\LogOutControl.ascx.cs">
+      <DependentUpon>LogOutControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\LogOutControl.ascx.designer.cs">
+      <DependentUpon>LogOutControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\questionTable.ascx.cs">
+      <DependentUpon>questionTable.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\questionTable.ascx.designer.cs">
+      <DependentUpon>questionTable.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\slamBKInfo.ascx.cs">
+      <DependentUpon>slamBKInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\slamBKInfo.ascx.designer.cs">
+      <DependentUpon>slamBKInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\TabControl.ascx.cs">
+      <DependentUpon>TabControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\TabControl.ascx.designer.cs">
+      <DependentUpon>TabControl.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="javascripts files\epoch_classes.js" />
+    <Content Include="App_Themes\LogIn\epoch_styles.css" />
+    <Content Include="App_Themes\LogIn\Images\bannergif.gif" />
+    <Content Include="App_Themes\LogIn\Images\chat.jpg" />
+    <Content Include="App_Themes\LogIn\Images\chitchat.jpg" />
+    <Content Include="App_Themes\LogIn\Images\e-card.jpg" />
+    <Content Include="App_Themes\LogIn\Images\Kids.gif" />
+    <Content Include="App_Themes\LogIn\Images\signuplogo.gif" />
+    <Content Include="App_Themes\LogIn\Images\MainImg.jpg" />
+    <Content Include="App_Themes\LogIn\Images\reminder.jpg" />
+    <Content Include="App_Themes\LogIn\Images\slambook.jpg" />
+    <Content Include="App_Themes\LogIn\Images\slambooksignup.jpg" />
+    <Content Include="App_Themes\LogIn\Images\sms-zone.jpg" />
+    <Content Include="App_Themes\LogIn\Images\supports.jpg" />
+    <Content Include="App_Themes\LogIn\Images\terms1.jpg" />
+    <Content Include="App_Themes\LogIn\Images\terms2.jpg" />
+    <Content Include="App_Themes\LogIn\Images\terms3.jpg" />
+    <Content Include="App_Themes\LogIn\Images\terms4.jpg" />
+    <Content Include="App_Themes\LogIn\Images\welcome-line.jpg" />
+    <Content Include="App_Themes\LogIn\LogInStyle.css" />
+    <Content Include="LogIn\Pages\chatdetails.aspx" />
+    <Content Include="LogIn\Pages\confirmlogin.aspx" />
+    <Content Include="LogIn\Pages\ecarddetail.aspx" />
+    <Content Include="LogIn\Pages\feedback.aspx" />
+    <Content Include="LogIn\Pages\ForgetUser.aspx" />
+    <Content Include="LogIn\Pages\MyLogInMaster.Master" />
+    <Content Include="LogIn\Pages\LogIn.aspx" />
+    <Content Include="LogIn\Pages\remainderdetail.aspx" />
+    <Content Include="LogIn\Pages\SignUp.aspx" />
+    <Content Include="LogIn\LogIn Controls\signupcontrol.ascx" />
+    <Content Include="LogIn\Pages\smsdetail.aspx" />
+    <Content Include="LogIn\Pages\support.aspx" />
+    <Content Include="LogIn\Pages\Terms.aspx" />
+    <Content Include="LogIn\Pages\chitchatdetail.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\baseclasslib\baseclasslib.csproj">
+      <Project>{33E2A6C0-E4B2-4297-B6CB-871AB8628F21}</Project>
+      <Name>baseclasslib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuinessLayer\BuinessLayer.csproj">
+      <Project>{AD25C7C6-29F7-4EAE-939B-272A6B2C9279}</Project>
+      <Name>BuinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataBaseLayer\DataBaseLayer.csproj">
+      <Project>{E469FE5D-601B-4584-A9E1-05D29AB4BC36}</Project>
+      <Name>DataBaseLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mailClassLib\mailClassLib.csproj">
+      <Project>{B42531CE-B078-4718-91E1-EFAF9B8FEAE5}</Project>
+      <Name>mailClassLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\RegisterUser\Images\green.JPG" />
+    <Content Include="App_Themes\RegisterUser\Images\Next.JPG" />
+    <Content Include="App_Themes\RegisterUser\Images\Previous.JPG" />
+    <Content Include="App_Themes\RegisterUser\Images\red.JPG" />
+    <Content Include="App_Themes\RegisterUser\Images\yellow.JPG" />
+    <Content Include="javascripts files\jquery.js" />
+    <Content Include="javascripts files\slider.js" />
+    <Content Include="LogIn\Pages\confirmMail.aspx" />
+    <Content Include="RegisterUser\Pages\addSlamBKAnswer.aspx" />
+    <Content Include="RegisterUser\Pages\addfriend.aspx" />
+    <Content Include="RegisterUser\Pages\addSlamBKRequest.aspx" />
+    <Content Include="RegisterUser\Pages\editFriends.aspx" />
+    <Content Include="RegisterUser\Pages\editScrap.aspx" />
+    <Content Include="RegisterUser\Pages\friendList.aspx" />
+    <Content Include="RegisterUser\Pages\inviteFriend.aspx" />
+    <Content Include="RegisterUser\Pages\sendtoMany.aspx" />
+    <Content Include="RegisterUser\Pages\showAllScrap.aspx" />
+    <Content Include="RegisterUser\Pages\showRecentAnsEntery.aspx" />
+    <Content Include="RegisterUser\Pages\showUsersSlamBK.aspx" />
+    <Content Include="RegisterUser\Pages\usersSlamBook.aspx" />
+    <Content Include="RegisterUser\Pages\userHome.aspx" />
+    <Content Include="RegisterUser\Pages\userProfile.aspx" />
+    <Content Include="slam images\Slam1.jpg" />
+    <Content Include="slam images\Slam2.jpg" />
+    <Content Include="slam images\Slam3.jpg" />
+    <Content Include="slam images\Slam4.jpg" />
+    <Content Include="slam images\Slam5.jpg" />
+    <Content Include="slam images\Slam6.jpg" />
+    <Content Include="slam images\Slam7.jpg" />
+    <Content Include="User Controls\questionTable.ascx" />
+    <Content Include="User Controls\slamBKInfo.ascx" />
+    <Content Include="User Controls\TabControl.ascx" />
+    <Content Include="UserImages\1.jpg" />
+    <Content Include="App_Themes\RegisterUser\userStylesheet.css" />
+    <Content Include="RegisterUser\Pages\RegisterUser.Master" />
+    <Content Include="User Controls\friendsLinkWindow.ascx" />
+    <Content Include="User Controls\linkBarControl.ascx" />
+    <Content Include="User Controls\LogOutControl.ascx" />
+    <Content Include="UserImages\boy.jpg" />
+    <Content Include="UserImages\girl.jpg" />
+    <Content Include="UserImages\spiral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1289</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

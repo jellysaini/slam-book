@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RegisterUser.master.cs" Inherits="SlamBook.RegisterUser.Pages.RegisterUser" %>
+
+<%@ Register src="~/User Controls/LogOutControl.ascx" tagname="LogOutControl" tagprefix="uc1" %>
+
+<%@ Register src="~/User Controls/linkBarControl.ascx" tagname="linkBarControl" tagprefix="uc2" %>
+
+<%@ Register src="~/User Controls/friendsLinkWindow.ascx" tagname="friendsLinkWindow" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link href="../../App_Themes/RegisterUser/userStylesheet.css" type="text/css" rel="Stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="headTable" >
+        <tr>
+            <td>
+                <table class="headTable">
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%">
+                            <table width="100%">
+                                <tr>
+                                   <td><img alt="Not Found" src="../../App_Themes/LogIn/Images/logo.jpg" /></td> 
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="headTable">
+                                            <tr>
+                                                <td width="35%"></td>
+                                                <td width="65%"><center ><font size="1" face="Verdana" color="#6666CC">Keeps Friends Memories Forever....</font></center></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="20%"></td>
+                        <td width="40%">
+                            <table width="100%">
+                                <tr>
+                                    <td>                                        
+                                        <uc1:LogOutControl ID="LogOutControl1" runat="server" />                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>                    
+            </td>
+        </tr>
+        <tr>
+            <td>                
+                <uc2:linkBarControl ID="linkBarControl1" runat="server" />
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                <table width="100%">
+                    <tr align="center" valign="top">
+                        <td width="20%">
+                            <table bgcolor="MistyRose" width="100%">
+                                <tr>
+                                    <td>
+                                        <uc3:friendsLinkWindow ID="friendsLinkWindow1" runat="server" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="80%">
+                            <table width="100%">
+                                <tr valign="top">
+                                    <td>
+                                        <table width="100%">
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        
+                                                        </asp:ContentPlaceHolder>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>                        
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
+            <td width="100%">
+                <table width="100%" cellpadding="0" cellspacing ="0" border="0">
+                    <tr bgcolor="#666633" align="center" >
+                      <td width="2%"></td>
+                      <td width="12%"><h4><asp:LinkButton ID="home" Text="Home" ForeColor="White" 
+                              Font-Size="Large" Font-Underline="false" runat="server" onclick="home_Click"></asp:LinkButton></h4></td>
+                      <td width="12%"><h4>Chat</h4></td>
+                      <td width="12%"><h4>Reminder</h4></td>
+                      <td width="12%"><h4>SMS Zone</h4></td>
+                      <td width="12%"><h4>Search</h4></td>
+                      <td width="12%"><h4>Feed Back</h4></td>
+                      <td width="12%"><h4>Terms</h4></td>
+                      <td width="12%"><h4>Support</h4></td>
+                      <td width="2%"></td>
+                    </tr>
+                </table>                    
+            </td>
+        </tr>        
+    </table>    
+    
+    </form>
+</body>
+</html>

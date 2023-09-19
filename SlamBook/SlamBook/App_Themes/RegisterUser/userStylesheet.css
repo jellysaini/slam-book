@@ -1,0 +1,172 @@
+﻿.menuTabs
+{
+	position:relative;
+    top:1px;
+    left:10px;
+    font-size:medium;
+	font-weight:lighter;
+	text-decoration:none;	
+	font-family:Arial Black;
+	color:Green;
+}
+.textboxstyle
+{
+	Width:72%;
+	font-family:Verdana;
+	font-size:medium;
+}
+div.divstyle
+{
+	width:100%;
+	float:left;
+	border: solid 1px gray;
+}
+table.maintable
+{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+.imgtag
+{
+	height:120px;
+	width:150px;	
+	border:solid 2px #FAAC58;	
+}
+.textbox
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:medium;
+font-style:normal;
+height:25px;
+width:80%;
+}
+.tab
+{
+	border:Solid 1px black;
+    border-bottom:none;
+    padding:0px 10px;
+    background-color:#eeeeee;
+}
+.alerttext
+{
+	color:Red; 
+	font-size:medium;
+}
+.selectedTab
+{
+	border:Solid 1px black;
+    border-bottom:Solid 1px white;
+    padding:0px 10px;
+    background-color:white;
+}
+.tabBody
+{
+	border:Solid 1px black;
+    padding:20px;
+    background-color:white;
+}
+body
+{
+	background-color :#FFFFFF;
+}
+table.headTable
+{
+	border:0px;
+	padding:0px;
+	top:0px;
+	left:0px;
+	margin:0px;
+	width:100%;
+}
+font.NormalText
+{
+	font-size:medium;
+	color:Orange;
+}
+a.linkstyle
+{
+	text-decoration:none;
+}
+.headingtxt
+{
+	font-size:medium;
+	font-weight:lighter;
+	font-family:Arial Black;
+	color:Green;
+}
+font.fonttext
+{
+	font-family:Verdana;
+	color:Gray;
+	font-weight:bold;
+}
+font.headtext
+{
+	font-family:Verdana;
+	color:Orange;
+	font-weight:bold;	
+}
+div.panel,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+div.panel
+{
+height:120px;
+display:none;
+}
+.abc
+{
+	margin:0px;
+	font-size:medium;
+	font-family:Verdana;
+	color:#5E610B;	
+	padding:5px;
+	text-align:left;
+	background:#e5eecc;
+	border:solid 1px #c3c3c3;
+	cursor:pointer;
+}
+.xyz
+{
+	margin:0px;
+	color:#5E610B;
+	font-size:medium;
+	font-family:Verdana;
+	padding:5px;
+	text-align:left;
+	background:#e5eecc;
+	border:solid 1px #c3c3c3;
+	height:120px;
+	display:none;	
+}
+.input
+{
+	font-size:medium;
+	text-align:center;	
+	color:#61380B;
+	height:30px;
+	width:30px;
+}
+
+.button
+{
+	width:70%;
+	height: 26px;
+}
+.backImg
+{
+	background-image:url(../../UserImages/spiral.jpg);
+	background-repeat:no-repeat;
+	background-color:#81BEF7;
+	background-position:center;	
+	width:100%;	
+	position:relative;
+	float:left;	
+}

@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLogInMaster.master.cs" Inherits="SlamBook.LogInPages.MyLogInMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>MySlamBookLogIn</title>
+    <link href="../../App_Themes/LogIn/LogInStyle.css" type="text/css" rel="Stylesheet" />    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body class="Master">
+    <form id="form1" runat="server">
+        <table class="MasterTableMain ">
+            <tr>
+                <td>
+                    <table class="MasterTableMain ">
+                        <tr align="center" >
+                            <td width="10%"></td>
+                            <td width="30%">
+                                <table class="MasterTableMain">
+                                    <tr>
+                                        <td><img alt="Not Found" src ="../../App_Themes/LogIn/Images/logo.jpg" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="MasterTableMain ">
+                                                <tr>
+                                                    <td width="35%"></td>
+                                                    <td width="65%"><center ><font class="logoFont">Keeps Friends Memories Forever....</font></center></td>                                            
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="60%"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="MasterTableFoot">
+                        <tr>
+                            <td width="75%"></td>
+                            <td width="25%">
+                                <table>
+                                    <tr align="center" >
+                                        <td width="9%"><a class="linkstyle" href="feedback.aspx" >Feed Back</a></td>
+                                        <td width="8%"><a class="linkstyle" href="Terms.aspx">Terms</a></td>
+                                        <td width="8%"><a class="linkstyle" href="support.aspx" >Support</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>        
+    </form>
+</body>
+</html>

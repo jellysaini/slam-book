@@ -1,0 +1,26 @@
+D:\kamal\SlamBook\SlamBook\bin\SlamBook.dll
+D:\kamal\SlamBook\SlamBook\bin\SlamBook.pdb
+D:\kamal\SlamBook\SlamBook\bin\baseclasslib.dll
+D:\kamal\SlamBook\SlamBook\bin\BuinessLayer.dll
+D:\kamal\SlamBook\SlamBook\bin\DataBaseLayer.dll
+D:\kamal\SlamBook\SlamBook\bin\BuinessLayer.pdb
+D:\kamal\SlamBook\SlamBook\bin\DataBaseLayer.pdb
+D:\kamal\SlamBook\SlamBook\bin\baseclasslib.pdb
+D:\kamal\SlamBook\SlamBook\obj\Debug\ResolveAssemblyReference.cache
+D:\kamal\SlamBook\SlamBook\obj\Debug\SlamBook.dll
+D:\kamal\SlamBook\SlamBook\obj\Debug\SlamBook.pdb
+D:\kamal\SlamBook\SlamBook\bin\mailClassLib.dll
+D:\kamal\SlamBook\SlamBook\bin\mailClassLib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\SlamBook.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\SlamBook.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\baseclasslib.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\BuinessLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\DataBaseLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\mailClassLib.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\DataBaseLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\baseclasslib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\BuinessLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\bin\mailClassLib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\obj\Debug\ResolveAssemblyReference.cache
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\obj\Debug\SlamBook.dll
+E:\Dot Net Project\SlamBook\SlamBook\SlamBook\obj\Debug\SlamBook.pdb

@@ -1,0 +1,10 @@
+D:\kamal\SlamBook\mailClassLib\obj\Debug\ResolveAssemblyReference.cache
+D:\kamal\SlamBook\mailClassLib\bin\Debug\mailClassLib.dll
+D:\kamal\SlamBook\mailClassLib\bin\Debug\mailClassLib.pdb
+D:\kamal\SlamBook\mailClassLib\obj\Debug\mailClassLib.dll
+D:\kamal\SlamBook\mailClassLib\obj\Debug\mailClassLib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\mailClassLib\bin\Debug\mailClassLib.dll
+E:\Dot Net Project\SlamBook\SlamBook\mailClassLib\bin\Debug\mailClassLib.pdb
+E:\Dot Net Project\SlamBook\SlamBook\mailClassLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Dot Net Project\SlamBook\SlamBook\mailClassLib\obj\Debug\mailClassLib.dll
+E:\Dot Net Project\SlamBook\SlamBook\mailClassLib\obj\Debug\mailClassLib.pdb

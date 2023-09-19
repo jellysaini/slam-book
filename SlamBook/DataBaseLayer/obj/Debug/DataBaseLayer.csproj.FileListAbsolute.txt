@@ -1,0 +1,10 @@
+D:\kamal\SlamBook\DataBaseLayer\bin\Debug\DataBaseLayer.dll
+D:\kamal\SlamBook\DataBaseLayer\bin\Debug\DataBaseLayer.pdb
+D:\kamal\SlamBook\DataBaseLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\kamal\SlamBook\DataBaseLayer\obj\Debug\DataBaseLayer.dll
+D:\kamal\SlamBook\DataBaseLayer\obj\Debug\DataBaseLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\DataBaseLayer\bin\Debug\DataBaseLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\DataBaseLayer\bin\Debug\DataBaseLayer.pdb
+E:\Dot Net Project\SlamBook\SlamBook\DataBaseLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\Dot Net Project\SlamBook\SlamBook\DataBaseLayer\obj\Debug\DataBaseLayer.dll
+E:\Dot Net Project\SlamBook\SlamBook\DataBaseLayer\obj\Debug\DataBaseLayer.pdb
